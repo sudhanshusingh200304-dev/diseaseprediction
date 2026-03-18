@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Stethoscope, Home, Activity, Info } from 'lucide-react';
+import { Stethoscope, Home, Activity, Info, Brain } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Navbar = () => {
