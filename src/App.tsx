@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Index from "./pages/Index";
 import Predict from "./pages/Predict";
+import AIPredict from "./pages/AIPredict";
 import HealthInfo from "./pages/HealthInfo";
 import NotFound from "./pages/NotFound";
 
@@ -21,6 +22,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/predict" element={<Predict />} />
+            <Route path="/ai-predict" element={<AIPredict />} />
             <Route path="/health-info" element={<HealthInfo />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
