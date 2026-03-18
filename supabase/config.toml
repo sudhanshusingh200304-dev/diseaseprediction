@@ -1,1 +1,4 @@
 project_id = "nhwqyjghmbtpeyyssghm"
+
+[functions.health-predict]
+verify_jwt = false
