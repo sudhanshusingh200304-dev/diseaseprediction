@@ -39,6 +39,16 @@ const Navbar = () => {
                 <span className="hidden sm:inline">Predict</span>
               </Button>
             </Link>
+            <Link to="/ai-predict">
+              <Button 
+                variant={isActive('/ai-predict') ? 'default' : 'ghost'} 
+                size="sm"
+                className="gap-2"
+              >
+                <Brain className="w-4 h-4" />
+                <span className="hidden sm:inline">AI Predict</span>
+              </Button>
+            </Link>
             <Link to="/health-info">
               <Button 
                 variant={isActive('/health-info') ? 'default' : 'ghost'} 
