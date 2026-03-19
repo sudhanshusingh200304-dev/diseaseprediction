@@ -33,15 +33,15 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <Link to="/predict">
+            <Link to="/patient/auth">
               <Button variant="hero" size="xl" className="group">
-                Start Prediction
+                Patient Login / Sign Up
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </Button>
             </Link>
-            <Link to="/health-info">
+            <Link to="/doctor/login">
               <Button variant="glass" size="xl">
-                Learn About Conditions
+                Doctor Login
               </Button>
             </Link>
           </div>
